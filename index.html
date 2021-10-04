@@ -334,15 +334,64 @@
 			</section>
 
 			<div class="backdrop is-hidden" data-modal>
-				<div class="modal">
-					<button class="btn-close" data-modal-close>
+				<form class="modal-form">
+					<h2 class="modal-form-title">Оставьте данные и мы перезвоним</h2>
+
+					<ul class="text-inputs">
+						<li class="item">
+							<label class="item-label" for="name">Имя</label>
+							<div class="item-input-container">
+								<input class="item-input" type="text" id="name" />
+								<svg class="item-icon">
+									<use href="./images/icons.svg#form-person"></use>
+								</svg>
+							</div>
+						</li>
+						<li class="item">
+							<label class="item-label" for="phone">Телефон</label>
+							<div class="item-input-container">
+								<input class="item-input" type="tel" id="phone" />
+								<svg class="item-icon">
+									<use href="./images/icons.svg#form-handset"></use>
+								</svg>
+							</div>
+						</li>
+						<li class="item">
+							<label class="item-label" for="mail">Почта</label>
+							<div class="item-input-container">
+								<input class="item-input" type="email" id="mail" />
+								<svg class="item-icon">
+									<use href="./images/icons.svg#form-envelop"></use>
+								</svg>
+							</div>
+						</li>
+						<li class="item">
+							<label class="item-label" for="comment">Комментарий</label>
+							<div class="item-input-container">
+								<textarea class="item-input textarea" id="comment" placeholder="Введите текст"></textarea>
+							</div>
+						</li>
+					</ul>
+
+					<label class="policy">
+						<input class="policy-checkbox" type="checkbox" />
+						<svg class="policy-checkbox-icon" width="15" height="15">
+							<use href="./images/icons.svg#form-checkbox"></use>
+						</svg>
+						<span class="policy-label">Соглашаюсь с рассылкой и принимаю</span>
+						<a class="policy-link" href="">Условия договора</a>
+					</label>
+
+					<button class="btn btn-confirm" type="button">Отправить</button>
+
+					<button class="btn-close" type="button" data-modal-close>
 						<svg height="16" width="16">
 							<use href="./images/icons.svg#close"></use>
 						</svg>
 					</button>
-				</div>
+				</form>
 			</div>
-			Fi
+
 			<script src="./js/modal.js"></script>
 		</main>
 
