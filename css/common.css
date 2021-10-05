@@ -5,6 +5,7 @@
 	--grid-gap: 30px;
 
 	--accent-color: #2196f3;
+	--accent-focus-color: #0076d9;
 
 	--bg-white-color: #ffffff;
 	--bg-white-transparent-color: rgba(255, 255, 255, 0.1);
@@ -327,5 +328,5 @@ body {
 
 .btn-primary:hover,
 .btn-primary:focus {
-	background-color: #008cff;
+	background-color: var(--accent-focus-color);
 }
