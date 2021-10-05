@@ -410,24 +410,3 @@ ul {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	border-radius: 50%;
 }
-
-/* button */
-
-.btn {
-	padding: 10px 32px;
-	min-width: 200px;
-
-	color: var(--font-inversed-color);
-	background-color: var(--accent-color);
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 1.9;
-	letter-spacing: 0.06em;
-	transition: color var(--anim-props), background-color var(--anim-props);
-}
-
-.btn:hover,
-.btn:focus {
-	color: var(--font-bold-color);
-	background-color: var(--bg-light-gray-color);
-}

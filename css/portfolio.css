@@ -100,7 +100,7 @@ ul {
 
 /* buttons */
 
-.btn {
+.btn-secondary {
 	padding: 6px 22px;
 
 	color: var(--font-bold-color);
@@ -111,9 +111,9 @@ ul {
 	transition: color var(--anim-props), background-color var(--anim-props), box-shadow var(--anim-props);
 }
 
-.btn:hover,
-.btn:focus,
-.btn.active {
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary.active {
 	color: var(--font-inversed-color);
 	background-color: var(--accent-color);
 	box-shadow: var(--primary-shadow);

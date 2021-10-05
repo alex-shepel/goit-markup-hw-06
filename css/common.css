@@ -61,11 +61,6 @@ img {
 	clip: rect(0 0 0 0);
 }
 
-/*:hover,*/
-/*:focus {*/
-/*	transition: background-color var(--anim-props), color var(--anim-props), fill var(--anim-props);*/
-/*}*/
-
 /* typographical preset */
 
 h1,
@@ -209,7 +204,7 @@ body {
 
 .footer .container {
 	display: flex;
-	gap: 70px;
+	gap: 90px;
 }
 
 .footer .logo {
@@ -239,10 +234,12 @@ body {
 	text-decoration: none;
 }
 
-.social-contacts-title {
+.footer-subtitle {
 	color: var(--font-inversed-color);
-	text-transform: uppercase;
+	margin-top: 0;
 	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-size: 14px;
 }
 
 .social-contacts-list {
@@ -271,6 +268,35 @@ body {
 	width: 20px;
 }
 
+.mailing > .interactive-container {
+	display: flex;
+	gap: 10px;
+}
+
+.mailing-label {
+	display: block;
+	font-weight: 700;
+}
+
+.mailing-input {
+	display: block;
+	padding-left: 16px;
+	width: 360px;
+	height: 50px;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border-radius: 4px;
+	background-color: var(--bg-black-color);
+	color: var(--font-inversed-color);
+}
+
+.mailing .btn-confirm {
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+
 /* buttons */
 
 .btn,
@@ -283,4 +309,22 @@ body {
 
 	font-family: inherit;
 	text-align: center;
+}
+
+.btn-primary {
+	padding: 10px 32px;
+	min-width: 200px;
+
+	color: var(--font-inversed-color);
+	background-color: var(--accent-color);
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.9;
+	letter-spacing: 0.06em;
+	transition: background-color var(--anim-props);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+	background-color: #008cff;
 }
