@@ -204,7 +204,7 @@ body {
 
 .footer .container {
 	display: flex;
-	gap: 90px;
+	gap: 80px;
 }
 
 .footer .logo {
@@ -291,6 +291,7 @@ body {
 
 .mailing .btn-confirm {
 	height: 50px;
+	width: 200px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
